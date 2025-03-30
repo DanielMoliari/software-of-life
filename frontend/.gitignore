@@ -22,9 +22,29 @@ coverage
 !.vscode/extensions.json
 .idea
 *.suo
-*.ntvs*
+*.ntvs*s
 *.njsproj
 *.sln
 *.sw?
 
 *.tsbuildinfo
+
+# Dependências
+node_modules/
+.pnpm-store/
+
+# IDE/editor
+.vscode/
+
+# Logs, builds e temporários (caso algum apareça futuramente)
+dist/
+*.log
+*.tmp
+*.swp
+
+# Sistema operacional/macOS
+.DS_Store
+
+# Docker (se você usar volumes ou arquivos temporários)
+docker-compose.override.yml
+.env

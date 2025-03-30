@@ -93,7 +93,7 @@ A infraestrutura da aplicação é gerenciada da seguinte forma:
 ## 📊 **Diagrama da Arquitetura**
 O diagrama a seguir ilustra a arquitetura geral do projeto:
 
-![Diagrama de Comunicação](./diagramaComunicacaoSoftware.png)
+![Diagrama de Comunicação](../diagramas/diagramaComunicacaoSoftware.png)
 
 ## 📝 **Conclusão**
 Este projeto é uma plataforma robusta e escalável para **gestão de tarefas, controle financeiro e monitoramento de saúde**, garantindo um histórico completo para análises futuras. 🚀

@@ -21,3 +21,37 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+
+# Dependências
+/vendor
+
+# Ambiente
+.env
+.env.*  # caso tenha .env.testing, .env.local etc.
+
+# IDE/editor
+.vscode/
+*.code-workspace
+
+# Logs e caches
+/storage/*.key
+/storage/app/public
+/storage/debugbar
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+/storage/logs
+/storage/oauth-private.key
+/storage/oauth-public.key
+
+# Cache Laravel
+bootstrap/cache/*.php
+
+# Banco SQLite (caso use)
+database/*.sqlite
+
+# Docker e CI/CD
+docker-compose.override.yml
+
+# Sistema operacional/macOS
+.DS_Store
