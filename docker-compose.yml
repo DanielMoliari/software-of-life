@@ -19,9 +19,9 @@ services:
       - "8000:8000"
     environment:
       - DB_HOST=db
-      - DB_DATABASE=laravel
-      - DB_USERNAME=laravel
-      - DB_PASSWORD=secret
+      - DB_DATABASE=software_of_life
+      - DB_USERNAME=daniel
+      - DB_PASSWORD=3264
     volumes:
       - ./backend:/var/www/html
     depends_on:
@@ -33,10 +33,10 @@ services:
     image: mariadb
     restart: always
     environment:
-      MYSQL_DATABASE: laravel
-      MYSQL_USER: laravel
-      MYSQL_PASSWORD: secret
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: software_of_life
+      MYSQL_USER: daniel
+      MYSQL_PASSWORD: 3264
+      MYSQL_ROOT_PASSWORD: 3264
     ports:
       - "3306:3306"
     volumes:

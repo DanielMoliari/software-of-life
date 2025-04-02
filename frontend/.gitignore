@@ -48,3 +48,4 @@ dist/
 # Docker (se você usar volumes ou arquivos temporários)
 docker-compose.override.yml
 .env
+.env.production
