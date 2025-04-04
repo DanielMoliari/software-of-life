@@ -1,17 +1,12 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import UserList from '@/modules/users/views/UserList.vue'
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
-const routes = [
+import UserPage from '@/modules/users/views/UserPage.vue'
+
+const routes: RouteRecordRaw[] = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView,
-  },
-  {
-    path: '/usuarios',
     name: 'Usuarios',
-    component: UserList,
+    component: UserPage,
   },
 ]
 
