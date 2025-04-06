@@ -16,7 +16,7 @@
 import { ref } from 'vue'
 import { useForm } from 'vee-validate'
 import * as yup from 'yup'
-import { criar, fetchUsuarios } from '@/modules/users/store/userStore'
+import { criar } from '@/modules/users/store/userStore'
 import type { Usuario } from '@/modules/users/types/Usuario'
 
 const carregando = ref(false)
@@ -38,7 +38,6 @@ const submitForm = handleSubmit(async values => {
   carregando.value = true
   try {
     await criar(values)
-    await fetchUsuarios()
     resetForm()
   } catch (error) {
     console.error('Erro na criação:', error)

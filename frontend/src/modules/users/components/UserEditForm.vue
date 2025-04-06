@@ -17,7 +17,7 @@
 import { ref, watch } from 'vue'
 import { useForm } from 'vee-validate'
 import * as yup from 'yup'
-import { atualizar, usuarioSelecionado, fetchUsuarios } from '@/modules/users/store/userStore'
+import { atualizar, usuarioSelecionado } from '@/modules/users/store/userStore'
 import type { Usuario } from '@/modules/users/types/Usuario'
 
 const carregando = ref(false)
