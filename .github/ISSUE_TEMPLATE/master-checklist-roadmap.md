@@ -2,7 +2,7 @@
 name: Master Checklist/Roadmap
 about: Lista geral de tarefas ou metas do projeto (Roadmap)
 title: "[ROADMAP]"
-labels: ''
+labels: management
 assignees: DanielMoliari
 
 ---
